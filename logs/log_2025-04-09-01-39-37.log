@@ -1,0 +1,20 @@
+[2025-04-09 01:39:37,165] logger - INFO - Flask Application starting..
+[2025-04-09 01:39:37,352] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-09 01:39:37,352] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-04-09 01:39:37,352] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 01:39:37,541] logger - INFO - Flask Application starting..
+[2025-04-09 01:39:37,658] werkzeug - WARNING -  * Debugger is active!
+[2025-04-09 01:39:37,663] werkzeug - INFO -  * Debugger PIN: 276-658-650
+[2025-04-09 01:39:39,760] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:39] "GET / HTTP/1.1" 200 -
+[2025-04-09 01:39:39,816] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:39] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-09 01:39:39,820] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:39] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-04-09 01:40:02,702] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:40:02] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+[2025-04-09 01:40:15,639] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:40:15] "POST /login HTTP/1.1" 200 -
+[2025-04-09 01:40:26,100] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:40:26] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+[2025-04-09 01:41:03,346] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:41:03] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+[2025-04-09 01:41:19,244] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:41:19] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+[2025-04-09 01:41:31,415] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:41:31] "POST /login HTTP/1.1" 200 -
+[2025-04-09 02:03:09,428] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 02:03:09] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+[2025-04-09 02:03:21,654] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 02:03:21] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+[2025-04-09 02:03:30,008] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 02:03:30] "POST /login HTTP/1.1" 200 -

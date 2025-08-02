@@ -1,0 +1,17 @@
+[2025-04-09 00:50:02,570] logger - INFO - Flask Application starting..
+[2025-04-09 00:50:02,736] werkzeug - WARNING -  * Debugger is active!
+[2025-04-09 00:50:02,741] werkzeug - INFO -  * Debugger PIN: 276-658-650
+[2025-04-09 00:50:09,307] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:50:09] "GET / HTTP/1.1" 200 -
+[2025-04-09 00:50:09,378] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:50:09] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-09 00:50:09,384] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:50:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-09 00:50:23,284] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:50:23] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+[2025-04-09 00:50:42,589] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:50:42] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+[2025-04-09 00:59:11,141] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:59:11] "GET / HTTP/1.1" 200 -
+[2025-04-09 00:59:11,162] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:59:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-09 00:59:11,163] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:59:11] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-09 00:59:24,270] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:59:24] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+[2025-04-09 00:59:24,383] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:59:24] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+[2025-04-09 00:59:28,300] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:59:28] "GET / HTTP/1.1" 200 -
+[2025-04-09 00:59:28,314] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:59:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-09 00:59:28,314] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:59:28] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-09 01:06:14,383] werkzeug - INFO -  * Detected change in '/Users/apurvasharan/Documents/newpromptpal/main/models.py', reloading

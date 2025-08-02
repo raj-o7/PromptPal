@@ -1,0 +1,30 @@
+[2025-08-02 12:13:32,113] logger - INFO - Flask Application starting..
+[2025-08-02 12:13:32,473] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-08-02 12:13:32,473] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-08-02 12:13:32,473] werkzeug - INFO -  * Restarting with stat
+[2025-08-02 12:13:32,659] logger - INFO - Flask Application starting..
+[2025-08-02 12:13:32,809] werkzeug - WARNING -  * Debugger is active!
+[2025-08-02 12:13:32,816] werkzeug - INFO -  * Debugger PIN: 116-863-036
+[2025-08-02 12:13:41,433] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:13:41] "GET / HTTP/1.1" 200 -
+[2025-08-02 12:13:41,482] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:13:41] "GET /static/images/PromptPal.png HTTP/1.1" 200 -
+[2025-08-02 12:13:41,483] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:13:41] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-08-02 12:13:42,459] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:13:42] "GET /static/images/icon.png HTTP/1.1" 200 -
+[2025-08-02 12:13:55,852] logger - INFO - Sending message to the Groq API
+[2025-08-02 12:13:56,458] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+[2025-08-02 12:13:56,459] logger - ERROR - Error communicating with the Groq API: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[2025-08-02 12:13:56,461] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:13:56] "POST /api/chat HTTP/1.1" 200 -
+[2025-08-02 12:16:35,704] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:16:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-08-02 12:16:35,707] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:16:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-08-02 12:17:28,449] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:17:28] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+[2025-08-02 12:17:39,132] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:17:39] "POST /login HTTP/1.1" 200 -
+[2025-08-02 12:17:45,586] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:17:45] "GET / HTTP/1.1" 200 -
+[2025-08-02 12:17:45,603] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:17:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-08-02 12:17:45,605] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:17:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-08-02 12:17:45,606] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:17:45] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-08-02 12:17:45,674] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:17:45] "[36mGET /static/images/icon.png HTTP/1.1[0m" 304 -
+[2025-08-02 12:18:59,394] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:18:59] "POST /login HTTP/1.1" 200 -
+[2025-08-02 12:23:18,190] logger - INFO - Sending message to the Groq API
+[2025-08-02 12:23:18,844] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+[2025-08-02 12:23:18,847] logger - ERROR - Error communicating with the Groq API: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[2025-08-02 12:23:18,848] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:23:18] "POST /api/chat HTTP/1.1" 200 -

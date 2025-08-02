@@ -1,0 +1,18 @@
+[2025-04-09 00:26:25,299] logger - INFO - Flask Application starting..
+[2025-04-09 00:26:25,483] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-09 00:26:25,483] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-04-09 00:26:25,484] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 00:26:25,674] logger - INFO - Flask Application starting..
+[2025-04-09 00:26:25,812] werkzeug - WARNING -  * Debugger is active!
+[2025-04-09 00:26:25,821] werkzeug - INFO -  * Debugger PIN: 276-658-650
+[2025-04-09 00:26:32,241] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:26:32] "GET / HTTP/1.1" 200 -
+[2025-04-09 00:26:32,291] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:26:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-09 00:26:32,291] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:26:32] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-09 00:28:01,448] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:28:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-09 00:32:44,706] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:32:44] "GET / HTTP/1.1" 200 -
+[2025-04-09 00:32:44,729] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:32:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-09 00:32:44,731] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:32:44] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-09 00:37:55,360] werkzeug - INFO -  * Detected change in '/Users/apurvasharan/Documents/newpromptpal/routes.py', reloading
+[2025-04-09 00:37:55,433] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 00:39:51,260] werkzeug - INFO -  * Restarting with stat

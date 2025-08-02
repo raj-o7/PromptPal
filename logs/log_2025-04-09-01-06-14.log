@@ -1,0 +1,4 @@
+[2025-04-09 01:06:14,786] logger - INFO - Flask Application starting..
+[2025-04-09 01:06:14,977] werkzeug - WARNING -  * Debugger is active!
+[2025-04-09 01:06:14,984] werkzeug - INFO -  * Debugger PIN: 276-658-650
+[2025-04-09 01:06:18,035] werkzeug - INFO -  * Detected change in '/Users/apurvasharan/Documents/newpromptpal/main/models.py', reloading

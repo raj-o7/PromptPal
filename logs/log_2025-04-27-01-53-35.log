@@ -1,0 +1,7 @@
+[2025-04-27 01:53:35,339] logger - INFO - Flask Application starting..
+[2025-04-27 01:53:35,458] werkzeug - WARNING -  * Debugger is active!
+[2025-04-27 01:53:35,465] werkzeug - INFO -  * Debugger PIN: 111-783-971
+[2025-04-27 01:53:38,108] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:53:38] "GET / HTTP/1.1" 200 -
+[2025-04-27 01:53:38,133] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:53:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-27 01:53:38,139] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:53:38] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-27 01:55:09,346] werkzeug - INFO -  * Detected change in '/Users/apurvasharan/Documents/newpromptpal/main/__init__.py', reloading

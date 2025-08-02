@@ -1,0 +1,34 @@
+[2025-04-09 01:08:36,464] logger - INFO - Flask Application starting..
+[2025-04-09 01:08:36,657] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-09 01:08:36,657] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-04-09 01:08:36,658] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 01:08:36,844] logger - INFO - Flask Application starting..
+[2025-04-09 01:08:36,964] werkzeug - WARNING -  * Debugger is active!
+[2025-04-09 01:08:36,970] werkzeug - INFO -  * Debugger PIN: 276-658-650
+[2025-04-09 01:08:38,419] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:08:38] "GET / HTTP/1.1" 200 -
+[2025-04-09 01:08:38,495] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:08:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-09 01:08:38,495] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:08:38] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-09 01:08:44,373] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:08:44] "GET / HTTP/1.1" 200 -
+[2025-04-09 01:08:44,395] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:08:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-09 01:08:44,396] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:08:44] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-09 01:08:50,793] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:08:50] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+[2025-04-09 01:08:51,077] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:08:51] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+[2025-04-09 01:08:57,231] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:08:57] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+[2025-04-09 01:08:58,192] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:08:58] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+[2025-04-09 01:09:02,655] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:09:02] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+[2025-04-09 01:09:08,000] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:09:08] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+[2025-04-09 01:09:13,611] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:09:13] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+[2025-04-09 01:10:06,376] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:10:06] "[31m[1mPOST /register?username=hello&password=123 HTTP/1.1[0m" 400 -
+[2025-04-09 01:10:27,812] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:10:27] "[31m[1mPOST /login?username=hello&password=123 HTTP/1.1[0m" 401 -
+[2025-04-09 01:11:18,415] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:11:18] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-09 01:11:41,800] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:11:41] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+[2025-04-09 01:11:46,654] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:11:46] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-09 01:12:21,720] werkzeug - INFO -  * Detected change in '/Users/apurvasharan/Documents/newpromptpal/main/routes.py', reloading
+[2025-04-09 01:12:21,808] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 01:12:23,423] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 01:14:12,010] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 01:14:15,657] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 01:14:19,157] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 01:15:12,518] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 01:15:21,159] werkzeug - INFO -  * Restarting with stat

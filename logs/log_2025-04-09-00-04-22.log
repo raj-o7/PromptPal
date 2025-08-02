@@ -1,0 +1,25 @@
+[2025-04-09 00:04:22,260] logger - INFO - Flask Application starting..
+[2025-04-09 00:04:22,548] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-09 00:04:22,548] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-04-09 00:04:22,549] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 00:04:22,636] logger - INFO - Flask Application starting..
+[2025-04-09 00:04:22,755] werkzeug - WARNING -  * Debugger is active!
+[2025-04-09 00:04:22,760] werkzeug - INFO -  * Debugger PIN: 276-658-650
+[2025-04-09 00:04:38,850] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:04:38] "GET / HTTP/1.1" 200 -
+[2025-04-09 00:04:38,897] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:04:38] "GET /static/images/PromptPal.png HTTP/1.1" 200 -
+[2025-04-09 00:04:38,900] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:04:38] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-04-09 00:04:39,336] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:04:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-09 00:04:47,374] logger - INFO - Sending message to the Groq API
+[2025-04-09 00:04:48,014] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-09 00:04:48,021] logger - INFO - Recieved the response from the Groq API
+[2025-04-09 00:04:48,022] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:04:48] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-09 00:04:56,148] logger - INFO - Sending message to the Groq API
+[2025-04-09 00:04:56,904] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-09 00:04:56,905] logger - INFO - Recieved the response from the Groq API
+[2025-04-09 00:04:56,906] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:04:56] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-09 00:11:03,081] werkzeug - INFO -  * Detected change in '/Users/apurvasharan/Documents/newpromptpal/models.py', reloading
+[2025-04-09 00:11:03,128] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 00:12:03,553] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 00:15:48,806] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 00:16:03,416] werkzeug - INFO -  * Restarting with stat

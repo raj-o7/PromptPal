@@ -1,0 +1,29 @@
+[2025-04-27 01:27:21,395] logger - INFO - Flask Application starting..
+[2025-04-27 01:27:21,522] werkzeug - WARNING -  * Debugger is active!
+[2025-04-27 01:27:21,539] werkzeug - INFO -  * Debugger PIN: 111-783-971
+[2025-04-27 01:27:26,222] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:27:26] "GET / HTTP/1.1" 200 -
+[2025-04-27 01:27:26,269] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:27:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-27 01:27:26,269] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:27:26] "GET /static/images/PromptPal.png HTTP/1.1" 200 -
+[2025-04-27 01:27:26,622] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:27:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-27 01:31:06,463] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:31:06] "GET / HTTP/1.1" 200 -
+[2025-04-27 01:31:06,490] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:31:06] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-04-27 01:31:06,491] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:31:06] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-27 01:32:15,581] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:32:15] "GET / HTTP/1.1" 200 -
+[2025-04-27 01:32:15,605] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:32:15] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-04-27 01:32:15,609] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:32:15] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-27 01:32:34,188] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:32:34] "GET / HTTP/1.1" 200 -
+[2025-04-27 01:32:34,211] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:32:34] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-27 01:32:34,212] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:32:34] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-04-27 01:32:48,792] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:32:48] "GET / HTTP/1.1" 200 -
+[2025-04-27 01:32:48,804] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:32:48] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-04-27 01:32:48,804] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:32:48] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-27 01:34:09,900] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:34:09] "GET / HTTP/1.1" 200 -
+[2025-04-27 01:34:09,929] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:34:09] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-04-27 01:34:09,930] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:34:09] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-27 01:34:19,658] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:34:19] "GET / HTTP/1.1" 200 -
+[2025-04-27 01:34:19,674] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:34:19] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-27 01:34:19,675] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:34:19] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-04-27 01:35:05,006] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:35:05] "GET / HTTP/1.1" 200 -
+[2025-04-27 01:35:05,027] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:35:05] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-27 01:35:05,027] werkzeug - INFO - 127.0.0.1 - - [27/Apr/2025 01:35:05] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-04-27 01:39:49,603] werkzeug - INFO -  * Detected change in '/Users/apurvasharan/Documents/newpromptpal/main/__init__.py', reloading

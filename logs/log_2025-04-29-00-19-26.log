@@ -1,0 +1,44 @@
+[2025-04-29 00:19:26,147] logger - INFO - Flask Application starting..
+[2025-04-29 00:19:26,353] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-29 00:19:26,353] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-04-29 00:19:26,353] werkzeug - INFO -  * Restarting with stat
+[2025-04-29 00:19:26,558] logger - INFO - Flask Application starting..
+[2025-04-29 00:19:26,675] werkzeug - WARNING -  * Debugger is active!
+[2025-04-29 00:19:26,680] werkzeug - INFO -  * Debugger PIN: 276-658-650
+[2025-04-29 00:19:30,781] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:19:30] "GET / HTTP/1.1" 200 -
+[2025-04-29 00:19:31,450] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:19:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-29 00:19:31,457] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:19:31] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:19:53,201] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:19:53] "GET / HTTP/1.1" 200 -
+[2025-04-29 00:19:53,232] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:19:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-29 00:19:53,235] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:19:53] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:19:53,287] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:19:53] "[36mGET /static/images/icon.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:20:34,755] logger - INFO - Sending message to the Groq API
+[2025-04-29 00:20:35,222] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-29 00:20:35,238] logger - INFO - Recieved the response from the Groq API
+[2025-04-29 00:20:35,239] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:20:35] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-29 00:20:45,606] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:20:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-29 00:21:30,873] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:21:30] "GET / HTTP/1.1" 200 -
+[2025-04-29 00:21:30,921] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:21:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-29 00:21:30,923] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:21:30] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:21:31,109] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:21:31] "[36mGET /static/images/icon.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:22:55,686] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:22:55] "GET / HTTP/1.1" 200 -
+[2025-04-29 00:22:55,715] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:22:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-29 00:22:55,717] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:22:55] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:22:55,849] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:22:55] "[36mGET /static/images/icon.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:23:10,514] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:10] "GET / HTTP/1.1" 200 -
+[2025-04-29 00:23:10,532] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-29 00:23:10,533] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:10] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:23:10,581] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:10] "[36mGET /static/images/icon.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:23:19,349] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:19] "GET / HTTP/1.1" 200 -
+[2025-04-29 00:23:19,364] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-29 00:23:19,364] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:19] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:23:19,404] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:19] "[36mGET /static/images/icon.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:23:20,006] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:20] "GET / HTTP/1.1" 200 -
+[2025-04-29 00:23:20,015] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-29 00:23:20,016] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:20] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:23:20,049] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:20] "[36mGET /static/images/icon.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:23:34,468] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:34] "GET / HTTP/1.1" 200 -
+[2025-04-29 00:23:34,492] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-29 00:23:34,495] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:34] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-29 00:23:34,544] werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 00:23:34] "[36mGET /static/images/icon.png HTTP/1.1[0m" 304 -

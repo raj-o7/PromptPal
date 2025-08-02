@@ -1,0 +1,25 @@
+[2025-04-09 01:15:41,469] logger - INFO - Flask Application starting..
+[2025-04-09 01:15:41,655] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-09 01:15:41,655] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-04-09 01:15:41,655] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 01:15:41,845] logger - INFO - Flask Application starting..
+[2025-04-09 01:15:41,967] werkzeug - WARNING -  * Debugger is active!
+[2025-04-09 01:15:41,972] werkzeug - INFO -  * Debugger PIN: 276-658-650
+[2025-04-09 01:15:43,719] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:15:43] "GET / HTTP/1.1" 200 -
+[2025-04-09 01:15:43,795] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:15:43] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-09 01:15:43,811] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:15:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-09 01:15:58,524] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:15:58] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+[2025-04-09 01:16:36,226] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:16:36] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+[2025-04-09 01:16:42,462] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:16:42] "POST /login HTTP/1.1" 200 -
+[2025-04-09 01:18:01,211] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:18:01] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+[2025-04-09 01:18:12,816] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:18:12] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+[2025-04-09 01:18:20,497] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:18:20] "POST /login HTTP/1.1" 200 -
+[2025-04-09 01:19:02,626] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:19:02] "GET / HTTP/1.1" 200 -
+[2025-04-09 01:19:02,708] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:19:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-09 01:19:02,710] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:19:02] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-09 01:19:07,613] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:19:07] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+[2025-04-09 01:19:08,450] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:19:08] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+[2025-04-09 01:20:34,710] werkzeug - INFO -  * Detected change in '/Users/apurvasharan/Documents/newpromptpal/main/routes.py', reloading
+[2025-04-09 01:20:34,784] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 01:20:40,483] werkzeug - INFO -  * Restarting with stat

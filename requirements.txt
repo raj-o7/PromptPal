@@ -1,0 +1,12 @@
+python-dotenv
+groq
+pandas
+numpy
+pyyaml #used to config the yaml files
+flask
+markdown
+logging
+gunicorn
+flask_cors
+flask_sqlalchemy
+flask_jwt_extended

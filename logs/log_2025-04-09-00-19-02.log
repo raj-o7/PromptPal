@@ -1,0 +1,17 @@
+[2025-04-09 00:19:02,175] logger - INFO - Flask Application starting..
+[2025-04-09 00:19:02,365] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-09 00:19:02,365] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-04-09 00:19:02,365] werkzeug - INFO -  * Restarting with stat
+[2025-04-09 00:19:02,553] logger - INFO - Flask Application starting..
+[2025-04-09 00:19:02,667] werkzeug - WARNING -  * Debugger is active!
+[2025-04-09 00:19:02,673] werkzeug - INFO -  * Debugger PIN: 276-658-650
+[2025-04-09 00:19:04,948] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:19:04] "GET / HTTP/1.1" 200 -
+[2025-04-09 00:19:05,005] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:19:05] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2025-04-09 00:19:05,011] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:19:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-04-09 00:19:44,438] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:19:44] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+[2025-04-09 00:20:08,238] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:20:08] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+[2025-04-09 00:20:10,351] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:20:10] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+[2025-04-09 00:20:11,744] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:20:11] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+[2025-04-09 00:23:23,032] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:23:23] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+[2025-04-09 00:23:47,069] werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:23:47] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
