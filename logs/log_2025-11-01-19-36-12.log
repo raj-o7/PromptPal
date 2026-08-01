@@ -1,0 +1,11 @@
+[2025-11-01 19:36:12,048] logger - INFO - Flask Application starting..
+[2025-11-01 19:36:12,190] werkzeug - WARNING -  * Debugger is active!
+[2025-11-01 19:36:12,199] werkzeug - INFO -  * Debugger PIN: 897-713-163
+[2025-11-01 19:36:59,671] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 19:36:59] "GET / HTTP/1.1" 200 -
+[2025-11-01 19:36:59,703] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 19:36:59] "GET /static/images/PromptPal.png HTTP/1.1" 200 -
+[2025-11-01 19:36:59,704] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 19:36:59] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-11-01 19:37:07,129] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 19:37:07] "GET /static/images/icon.png HTTP/1.1" 200 -
+[2025-11-01 19:37:11,659] logger - INFO - Sending message to the Groq API
+[2025-11-01 19:37:14,294] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-11-01 19:37:14,296] logger - ERROR - Error communicating with the Groq API: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+[2025-11-01 19:37:14,299] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 19:37:14] "POST /api/chat HTTP/1.1" 200 -

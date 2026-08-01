@@ -1,0 +1,22 @@
+[2026-08-02 02:09:31,706] logger - INFO - Flask Application starting..
+[2026-08-02 02:09:31,881] werkzeug - WARNING -  * Debugger is active!
+[2026-08-02 02:09:31,891] werkzeug - INFO -  * Debugger PIN: 116-863-036
+[2026-08-02 02:09:38,068] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2026 02:09:38] "GET / HTTP/1.1" 200 -
+[2026-08-02 02:09:38,553] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2026 02:09:38] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2026-08-02 02:09:38,554] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2026 02:09:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2026-08-02 02:09:41,431] logger - INFO - Sending message to the Groq API
+[2026-08-02 02:09:41,629] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2026-08-02 02:09:41,630] logger - ERROR - Error communicating with the Groq API: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+[2026-08-02 02:09:41,631] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2026 02:09:41] "POST /api/chat HTTP/1.1" 200 -
+[2026-08-02 02:09:51,899] logger - INFO - Sending message to the Groq API
+[2026-08-02 02:09:52,074] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2026-08-02 02:09:52,075] logger - ERROR - Error communicating with the Groq API: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+[2026-08-02 02:09:52,076] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2026 02:09:52] "POST /api/chat HTTP/1.1" 200 -
+[2026-08-02 02:09:59,404] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2026 02:09:59] "GET / HTTP/1.1" 200 -
+[2026-08-02 02:09:59,540] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2026 02:09:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2026-08-02 02:09:59,541] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2026 02:09:59] "[36mGET /static/images/PromptPal.png HTTP/1.1[0m" 304 -
+[2026-08-02 02:09:59,573] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2026 02:09:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2026-08-02 02:10:03,188] logger - INFO - Sending message to the Groq API
+[2026-08-02 02:10:03,329] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2026-08-02 02:10:03,330] logger - ERROR - Error communicating with the Groq API: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+[2026-08-02 02:10:03,331] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2026 02:10:03] "POST /api/chat HTTP/1.1" 200 -

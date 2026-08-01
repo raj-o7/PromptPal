@@ -1,0 +1,17 @@
+[2025-12-13 19:18:00,062] logger - INFO - Flask Application starting..
+[2025-12-13 19:18:00,539] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-12-13 19:18:00,539] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-12-13 19:18:00,540] werkzeug - INFO -  * Restarting with stat
+[2025-12-13 19:18:00,729] logger - INFO - Flask Application starting..
+[2025-12-13 19:18:00,868] werkzeug - WARNING -  * Debugger is active!
+[2025-12-13 19:18:00,876] werkzeug - INFO -  * Debugger PIN: 116-863-036
+[2025-12-13 19:18:09,961] werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 19:18:09] "GET / HTTP/1.1" 200 -
+[2025-12-13 19:18:10,253] werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 19:18:10] "GET /static/images/PromptPal.png HTTP/1.1" 200 -
+[2025-12-13 19:18:10,253] werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 19:18:10] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-12-13 19:18:10,358] werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 19:18:10] "GET /static/images/icon.png HTTP/1.1" 200 -
+[2025-12-13 19:18:35,617] logger - INFO - Sending message to the Groq API
+[2025-12-13 19:18:35,767] groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.471464 seconds
+[2025-12-13 19:18:36,249] groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.943812 seconds
+[2025-12-13 19:18:37,202] logger - ERROR - Error communicating with the Groq API: Connection error.
+[2025-12-13 19:18:37,205] werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 19:18:37] "POST /api/chat HTTP/1.1" 200 -
