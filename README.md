@@ -69,7 +69,7 @@ PromptPal/
 
 4. Run the app:
    ```bash
-   python app.py
+   python3 app.py
    ```
    The server will start at `http://127.0.0.1:5000/`
 
