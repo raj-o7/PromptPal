@@ -3,7 +3,7 @@ from groq import Groq
 from logger import CustomLogger
 from dotenv import load_dotenv
 
-load_dotenv
+load_dotenv()
 
 class GroqClient:
     # Class to interact with the groq api
@@ -22,7 +22,7 @@ class GroqClient:
             self.logger.info("Sending message to the Groq API")
             chat_completion=self.client.chat.completions.create(
                 messages=messages,
-                model="llama3-8b-8192"
+                model="llama-3.1-8b-instant"
             )
             response=chat_completion.choices[0].message.content
             self.logger.info("Recieved the response from the Groq API")
