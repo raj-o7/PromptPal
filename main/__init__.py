@@ -53,4 +53,7 @@ def create_app():
         from .models import User  # Import models here
         return {'db': db, 'User': User}
 
+   with app.app_context():
+        db.create_all()
+
     return app
