@@ -50,10 +50,10 @@ def create_app():
     # Shell context processor (so db and User auto-load in flask shell)
     @app.shell_context_processor
     def make_shell_context():
-        from .models import User  # Import models here
+        from .models import User
         return {'db': db, 'User': User}
 
-   with app.app_context():
+    with app.app_context():
         db.create_all()
 
     return app
