@@ -1,1 +1,11 @@
-
+python-dotenv
+groq
+pandas
+numpy
+pyyaml
+flask
+markdown
+gunicorn
+flask_cors
+flask_sqlalchemy
+flask_jwt_extended
