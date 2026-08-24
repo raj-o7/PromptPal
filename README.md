@@ -2,7 +2,7 @@
 
 An AI chat application with user authentication — built with Flask, SQLAlchemy, and JWT, integrating a third-party AI API to deliver ChatGPT/Gemini-style conversational responses.
 
-**[Live Demo](#)** · Backend: Python (Flask) · Frontend: HTML/CSS/JS
+**[Live Demo](https://promptpal-wv2f.onrender.com/)** · Backend: Python (Flask) · Frontend: HTML/CSS/JS
 
 ---
 
