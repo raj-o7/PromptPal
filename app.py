@@ -21,5 +21,5 @@ jwt = JWTManager(app)
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()  # Ensures tables are created
-    print("Flask app is running on http://127.0.0.1:5000/")
-    app.run(host='127.0.0.1', port=5000, debug=True)
+    print("Flask app is running on http://127.0.0.1:5050/")
+    app.run(host='127.0.0.1', port=5050, debug=True)

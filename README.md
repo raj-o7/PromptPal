@@ -71,7 +71,7 @@ PromptPal/
    ```bash
    python3 app.py
    ```
-   The server will start at `http://127.0.0.1:5000/`
+   The server will start at `http://127.0.0.1:5050/`
 
 ## Possible Improvements
 

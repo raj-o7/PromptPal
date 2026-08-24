@@ -22,7 +22,7 @@ class GroqClient:
             self.logger.info("Sending message to the Groq API")
             chat_completion=self.client.chat.completions.create(
                 messages=messages,
-                model="llama-3.1-8b-instant"
+                model="openai/gpt-oss-20b"
             )
             response=chat_completion.choices[0].message.content
             self.logger.info("Recieved the response from the Groq API")
